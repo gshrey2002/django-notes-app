@@ -32,6 +32,7 @@ pipeline{
                 echo "deploying to EC2"
                 sh "docker-compose down && docker-compose up -d"
                // sh "docker run -d -p 8000:8000 gshrey2002/notedjango"
+                
             }
             
         }
